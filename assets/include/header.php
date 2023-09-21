@@ -23,21 +23,20 @@
             <nav class="uk-navbar-container">
                 <div class="uk-container" uk-navbar>
                     <div class="uk-navbar-left">
-                        <a class="uk-navbar-item uk-logo uk-text-bold" href="#" aria-label="Back to Home">Logo</a>
+                        <a class="uk-navbar-item uk-logo uk-text-bold" href="#" aria-label="Back to Home"><img src="assets/img/logo.png" width="90" alt="" srcset=""></a>
                     </div>
                     <div class="uk-navbar-center uk-visible@m">
                         <ul class="uk-navbar-nav">
                             <li class="uk-active"><a href="#">HOME</a></li>
                             <li><a href="#">PROGRAMS</a></li>
-                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="about.php">ABOUT US</a></li>
                             <li><a href="#">EVENTS</a></li>
-                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="contact-us.php">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="uk-navbar-right">
                             <button class="uk-button uk-visible@m uk-button-danger">APPOINMENTS</button>
                             <button class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #nav-offcanvas" uk-navbar-toggle-icon></button>
-                        
                     </div>
                 </div>
             </nav>

@@ -1,14 +1,45 @@
 <?php include('assets/include/header.php') ?>
 <!-- slider -->
-<div class="uk-main-banner  uk-margin-large-bottom">
-    <div class="uk-background-cover  uk-banner-inner uk-flex uk-flex-middle " style="background-image:url('assets/img/banner-new.jpg'); ">
-        <div class="uk-banner-text uk-width-3-5 uk-padding-large">
-            <h1>Mind Matters: Navigating the Landscape of Thoughts, Emotions, and Behavior</h1>
-            <p class="uk-text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto </p>
-
-            <a href="#" class="btn-main">Learn More</a>
+<div class="uk-main-banner">
+    <div>
+        <div class=" uk-visible-toggle uk-light uk-relative" tabindex="-1" uk-slideshow="animation: fade; ">
+            <ul class="uk-slideshow-items" >
+                <li>
+                    <div class="overlay"></div>
+                    <img src="assets/img/banner-new.jpg" alt="" uk-cover>
+                    <div class="uk-position-center-left uk-width-3-5@m uk-banner-text js-slideshow-animation">
+                        <h1 uk-slideshow-parallax="x: 100,-100" uk-scrollspy="cls: uk-animation-fade;  delay: 100; repeat: false">Mind Matters: Navigating the Landscape of Thoughts, Emotions, and Behavior</h1>
+                        <p uk-slideshow-parallax="x: 200,-200" uk-scrollspy="cls: uk-animation-fade;  delay: 200; repeat: false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
+                        <a href="#" class="btn-main" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false">Learn More</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="overlay"></div>
+                    <img src="assets/img/therapy-02.jpg" alt="" uk-cover>
+                    <div class="uk-position-center-left uk-width-3-5@m uk-banner-text">
+                        <h1 uk-slideshow-parallax="x: 100,-100">Mind Matters: Navigating the Landscape of Thoughts,
+                            Emotions, and Behavior</h1>
+                        <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
+                        <a href="#" class="btn-main">Learn More</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="overlay"></div>
+                    <img src="assets/img/service-01.jpg" alt="" uk-cover>
+                    <div class="uk-position-center-left uk-width-3-5@m uk-banner-text">
+                        <h1 uk-slideshow-parallax="x: 100,-100">Mind Matters: Navigating the Landscape of Thoughts,
+                            Emotions, and Behavior</h1>
+                        <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
+                        <a href="#" class="btn-main">Learn More</a>
+                    </div>
+                </li>
+            </ul>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-visible@s" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-visible@s" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
         </div>
     </div>
+
+
 </div>
 
 <section class="uk-padding-large uk-padding-remove-horizontal">
@@ -127,8 +158,13 @@
                         </a>
                     </li>
                 </ul>
-                <!-- <a class="uk-position-center-left uk-position-small " href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a> -->
+                <!-- <div class="uk-position-bottom-center  uk-light">
+                    <div class="bg-primary-dark uk-dotnav-wrap uk-box-shadow-medium">
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center "></ul>
+                    </div>
+                </div> -->
+                <a class="uk-position-center-left uk-position-small uk-hidden@m" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden@m" href="#" uk-slidenav-next uk-slider-item="next"></a>
             </div>
         </div>
     </div>
@@ -136,7 +172,7 @@
 </section>
 
 <section>
-    <div class="uk-container uk-padding">
+    <div class="uk-container uk-padding uk-padding-remove-vertical uk-margin-medium-top">
         <ul class="uk-child-width-1-2@m uk-grid-large" uk-height-match="target:uk-info" uk-grid>
             <li class="uk-flex uk-flex-column uk-flex-center">
                 <div class="uk-info uk-flex uk-flex-column uk-flex-middle">
@@ -247,8 +283,8 @@
     </div>
 </section>
 
-<section class="uk-section">
-    <div class="uk-container uk-padding">
+<section class="uk-padding-large uk-padding-remove-horizontal">
+    <div class="uk-container  uk-padding ">
         <ul class="uk-child-width-1-2@m uk-grid-large" uk-height-match="target:uk-info" uk-grid>
             <li class="uk-flex uk-flex-column uk-flex-center">
                 <div class="uk-info">

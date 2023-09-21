@@ -4,7 +4,7 @@
             <ul class="uk-grid" uk-grid>
                 <li class="uk-width-1-4@m">
                     <div class="uk-logo">
-                        <img src="assets/img/school-logo.png" alt="">
+                        <img src="assets/img/logo.png" width="120" alt="" srcset="">
                     </div>
                     <p class="uk-text-white uk-text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias iste inventore mollitia nesciunt in deleniti magnam sint recusandae in deleniti magnam sint recusandae</p>
                 </li>
@@ -42,10 +42,10 @@
                 <li class="footer-inner uk-width-1-4@m">
                     <h3>Folow Us</h3>
                     <div class="uk-socials">
-                        <a href=""><i class="fa-brands fa-facebook" ></i></a>
-                        <a href=""><i class="fa-brands fa-twitter" ></i></a>
-                        <a href=""><i class="fa-brands fa-instagram" ></i></a>
-                        <a href=""><i class="fa-brands fa-whatsapp" ></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </li>
             </ul>
@@ -61,9 +61,45 @@
 <div id="nav-offcanvas" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
-        <h3>Title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
+        <header>
+            <div class="uk-card-header uk-flex uk-flex-column uk-flex-middle">
+                <div class="uk-logo">
+                    <img src="assets/img/logo.png" width="120" alt="" srcset="">
+                </div>
+
+                <div class="uk-text-xsmall uk-text-muted" style="margin-top: 10px;">
+                    <p class="uk-text-center uk-margin-remove">+61 02 8065 2990</p>
+                    <p class="uk-text-center uk-margin-remove">Level 7, 8 Quay Street, Haymarket NSW 2000, Nepal</p>
+                </div>
+            </div>
+        </header>
+        <nav class="uk-card-small uk-card-body">
+            <ul class="uk-nav-default uk-nav-parent-icon uk-list-divider uk-nav" uk-nav="">
+                <li class="uk-active"><a href="#">HOME</a></li>
+                <li><a href="#">PROGRAMS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <!-- <li class="uk-parent">
+                    <a href="brands.php" id="uk-nav-58-title-1" role="button" aria-controls="uk-nav-58-content-1" aria-expanded="false" aria-disabled="false">Academics</a>
+                    <ul class="uk-nav-sub uk-list-divider" hidden="" id="uk-nav-58-content-1" role="region" aria-labelledby="uk-nav-58-title-1">
+                        <li role="presentation"><a href="academics.php">Accounting &amp; Finance</a></li>
+                        <li role="presentation"><a href="academics.php">Business</a></li>
+                        <li role="presentation"><a href="academics.php"> Leadership &amp; Management</a></li>
+                        <li role="presentation"><a href="academics.php">General English</a></li>
+                        <li role="presentation"><a href="academics.php">Hospitality &amp; Management</a></li>
+                    </ul>
+                </li> -->
+            </ul>
+        </nav>
+        <div class="uk-position-bottom uk-padding">
+            <div class="uk-socials uk-flex uk-flex-middle uk-flex-center">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
     </div>
 </div>
 <script src="https://kit.fontawesome.com/75c36fe0a2.js" crossorigin="anonymous"></script>
