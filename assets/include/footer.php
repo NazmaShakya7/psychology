@@ -1,6 +1,6 @@
 <footer class="uk-footer">
     <div class="uk-section" style="background-color:#2D2D2D;">
-        <div class="uk-container">
+        <div class="uk-container" uk-scrollspy="target:i,li,p, a, img; cls: uk-animation-slide-top-medium; delay: 10; repeat: false;">
             <ul class="uk-grid" uk-grid>
                 <li class="uk-width-1-4@m">
                     <div class="uk-logo">
@@ -75,11 +75,11 @@
         </header>
         <nav class="uk-card-small uk-card-body">
             <ul class="uk-nav-default uk-nav-parent-icon uk-list-divider uk-nav" uk-nav="">
-                <li class="uk-active"><a href="#">HOME</a></li>
-                <li><a href="#">PROGRAMS</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">EVENTS</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li class="uk-active"><a href="index.php">HOME</a></li>
+                <li><a href="programs.php">PROGRAMS</a></li>
+                <li><a href="about.php">ABOUT US</a></li>
+                <li><a href="event.php">EVENTS</a></li>
+                <li><a href="contact-us.php">CONTACT US</a></li>
                 <!-- <li class="uk-parent">
                     <a href="brands.php" id="uk-nav-58-title-1" role="button" aria-controls="uk-nav-58-content-1" aria-expanded="false" aria-disabled="false">Academics</a>
                     <ul class="uk-nav-sub uk-list-divider" hidden="" id="uk-nav-58-content-1" role="region" aria-labelledby="uk-nav-58-title-1">

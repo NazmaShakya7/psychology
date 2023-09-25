@@ -27,10 +27,10 @@
                     </div>
                     <div class="uk-navbar-center uk-visible@m">
                         <ul class="uk-navbar-nav">
-                            <li class="uk-active"><a href="#">HOME</a></li>
-                            <li><a href="#">PROGRAMS</a></li>
+                            <li class="uk-active"><a href="index.php">HOME</a></li>
+                            <li><a href="programs.php">PROGRAMS</a></li>
                             <li><a href="about.php">ABOUT US</a></li>
-                            <li><a href="#">EVENTS</a></li>
+                            <li><a href="event.php">EVENTS</a></li>
                             <li><a href="contact-us.php">CONTACT US</a></li>
                         </ul>
                     </div>

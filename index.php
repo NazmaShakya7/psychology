@@ -1,16 +1,16 @@
 <?php include('assets/include/header.php') ?>
-<!-- slider -->
+<!-- banner-section-->
 <div class="uk-main-banner">
     <div>
-        <div class=" uk-visible-toggle uk-light uk-relative" tabindex="-1" uk-slideshow="animation: fade; ">
+        <div class=" uk-visible-toggle uk-light uk-relative" tabindex="-1" uk-slideshow="animation: fade;autoplay: true; autoplay-interval: 4000; ">
             <ul class="uk-slideshow-items" >
                 <li>
                     <div class="overlay"></div>
                     <img src="assets/img/banner-new.jpg" alt="" uk-cover>
                     <div class="uk-position-center-left uk-width-3-5@m uk-banner-text js-slideshow-animation">
                         <h1 uk-slideshow-parallax="x: 100,-100" uk-scrollspy="cls: uk-animation-fade;  delay: 100; repeat: false">Mind Matters: Navigating the Landscape of Thoughts, Emotions, and Behavior</h1>
-                        <p uk-slideshow-parallax="x: 200,-200" uk-scrollspy="cls: uk-animation-fade;  delay: 200; repeat: false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
-                        <a href="#" class="btn-main" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false">Learn More</a>
+                        <p uk-slideshow-parallax="x: 200,-200" uk-scrollspy="cls: uk-animation-fade;  delay: 100; repeat: false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
+                        <a href="about.php" class="btn-main" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false">Learn More</a>
                     </div>
                 </li>
                 <li>
@@ -20,7 +20,7 @@
                         <h1 uk-slideshow-parallax="x: 100,-100">Mind Matters: Navigating the Landscape of Thoughts,
                             Emotions, and Behavior</h1>
                         <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
-                        <a href="#" class="btn-main">Learn More</a>
+                        <a href="about.php" class="btn-main">Learn More</a>
                     </div>
                 </li>
                 <li>
@@ -30,7 +30,7 @@
                         <h1 uk-slideshow-parallax="x: 100,-100">Mind Matters: Navigating the Landscape of Thoughts,
                             Emotions, and Behavior</h1>
                         <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempora saepe repudiandae mollitia voluptatem ratione quidem, molestias ullam modi perferendis rem quos ipsam libero porro! Natus architecto</p>
-                        <a href="#" class="btn-main">Learn More</a>
+                        <a href="about.php" class="btn-main">Learn More</a>
                     </div>
                 </li>
             </ul>
@@ -41,9 +41,11 @@
 
 
 </div>
+<!--banner-section-end-->
 
-<section class="uk-padding-large uk-padding-remove-horizontal">
-    <div class="uk-container uk-padding uk-padding-remove-vertical">
+<!--Programs-section-->
+<section class="uk-section-padding-large">
+    <div class="uk-container uk-padding uk-padding-remove-vertical"  uk-scrollspy="target:h2,h3, li, p; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
         <div class="uk-margin-auto uk-width-4-5@m uk-padding-large uk-padding-remove-vertical">
             <div class="section-title">
                 <p class="uk-margin-remove sub-title">What we offer</p>
@@ -53,12 +55,12 @@
         </div>
     </div>
 
-    <div class="uk-slider-container uk-programs">
+    <div class="uk-slider-container uk-programs"  >
         <div class="uk-slider-container-offset uk-margin-medium-top" uk-slider>
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
                 <ul class="uk-programs--list uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m">
-                    <li class="uk-program--item">
-                        <a class="" href="">
+                    <li class="uk-program--item" uk-scrollspy="target:div,h3; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
+                        <a class="" href="programs-inner.php">
                             <div class="uk-relative">
                                 <div class="media-600 ">
                                     <img src="assets/img/service-01.jpg" alt="">
@@ -77,8 +79,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="uk-program--item">
-                        <a href="">
+                    <li class="uk-program--item" uk-scrollspy="target:div,h3; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
+                        <a href="programs-inner.php">
                             <div class="uk-relative">
                                 <div class="media-600">
                                     <img src="assets/img/service-02.jpg" alt="">
@@ -97,8 +99,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="uk-program--item">
-                        <a href="">
+                    <li class="uk-program--item" uk-scrollspy="target:div,h3; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
+                        <a href="programs-inner.php">
                             <div class="uk-relative">
                                 <div class="media-600 ">
                                     <img src="assets/img/service-03.jpg" alt="">
@@ -117,8 +119,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="uk-program--item">
-                        <a href="">
+                    <li class="uk-program--item" uk-scrollspy="target:div,h3; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
+                        <a href="programs-inner.php">
                             <div class="uk-relative">
                                 <div class="media-600">
                                     <img src="assets/img/service-04.jpg" alt="">
@@ -137,8 +139,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="uk-program--item">
-                        <a href="">
+                    <li class="uk-program--item" uk-scrollspy="target:div,h3; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
+                        <a href="programs-inner.php">
                             <div class="uk-relative">
                                 <div class="media-600">
                                     <img src="assets/img/service-04.jpg" alt="">
@@ -170,11 +172,13 @@
     </div>
 
 </section>
+<!--Programs Section End-->
 
-<section>
-    <div class="uk-container uk-padding uk-padding-remove-vertical uk-margin-medium-top">
+<!--About-Section-->
+<section class="uk-section-padding-small">
+    <div class="uk-container" >
         <ul class="uk-child-width-1-2@m uk-grid-large" uk-height-match="target:uk-info" uk-grid>
-            <li class="uk-flex uk-flex-column uk-flex-center">
+            <li class="uk-flex uk-flex-column uk-flex-center" uk-scrollspy="target:.uk-info; cls: uk-animation-slide-top-medium; delay: 100; repeat: false">
                 <div class="uk-info uk-flex uk-flex-column uk-flex-middle">
                     <ul class="uk-grid-collapse" uk-grid>
                         <li class="uk-width-1-1">
@@ -201,7 +205,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="uk-flex uk-flex-column uk-flex-center">
+            <li class="uk-flex uk-flex-column uk-flex-center" uk-scrollspy="target:h2, li, p, a; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
                 <div class="uk-info">
                     <div class="section-title uk-text-left">
                         <p class="uk-margin-remove sub-title">What we offer</p>
@@ -214,16 +218,18 @@
                             <li>Really know the true needs and expectations of patients</li>
                             <li>To assist the patients in recovering from the crisis & problems</li>
                         </ul>
-                        <a href="#" class="btn btn-primary uk-margin-top">Learn More</a>
+                        <a href="about.php" class="btn btn-primary uk-margin-top">Learn More</a>
                     </div>
                 </div>
             </li>
         </ul>
     </div>
 </section>
+<!--About Section End-->
 
-<section class="uk-section uk-margin-large-top uk-background-cover uk-services" style="background-image:url('assets/img/banner.jpg');">
-    <div class="uk-container uk-padding uk-padding-remove-vertical">
+<!--Services Section-->
+<section class="uk-section-padding-large uk-margin-large-top uk-background-cover uk-services" style="background-image:url('assets/img/banner.jpg');">
+    <div class="uk-container" uk-scrollspy="target:h2, li,h3, p, img; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
         <div class="uk-margin-auto uk-width-4-5@m uk-padding-large uk-padding-remove-vertical uk-relative">
             <div class="section-title">
                 <p class="uk-margin-remove sub-title uk-text-white">What we offer</p>
@@ -234,7 +240,7 @@
         </div>
         <div class="uk-slider-container-offset uk-margin-medium-top" uk-slider>
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-                <ul class="uk-slider-items uk-child-width-1-3@s uk-grid" uk-height-match="target:.uk-service--item>.uk-card-body">
+                <ul class="uk-slider-items uk-child-width-1-3@s uk-grid" uk-height-match="target:.uk-service--item>.uk-card-body" >
                     <li>
                         <div class="uk-card uk-card-default uk-service--item">
                             <div class="uk-card-body uk-flex uk-flex-column uk-flex-center uk-flex-middle">
@@ -282,11 +288,13 @@
         </div>
     </div>
 </section>
+<!--Services Section End-->
 
-<section class="uk-padding-large uk-padding-remove-horizontal">
+<!--About-2 Section-->
+<section class="uk-section-padding-large">
     <div class="uk-container  uk-padding ">
         <ul class="uk-child-width-1-2@m uk-grid-large" uk-height-match="target:uk-info" uk-grid>
-            <li class="uk-flex uk-flex-column uk-flex-center">
+            <li class="uk-flex uk-flex-column uk-flex-center" uk-scrollspy="target:h2, li, p, a; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
                 <div class="uk-info">
                     <div class="section-title uk-text-left">
                         <p class="uk-margin-remove sub-title">What we offer</p>
@@ -299,11 +307,11 @@
                             <li>Really know the true needs and expectations of patients</li>
                             <li>To assist the patients in recovering from the crisis & problems</li>
                         </ul>
-                        <a href="#" class="btn btn-primary uk-margin-top">Learn More</a>
+                        <a href="about.php" class="btn btn-primary uk-margin-top">Learn More</a>
                     </div>
                 </div>
             </li>
-            <li class="uk-flex uk-flex-column uk-flex-center">
+            <li class="uk-flex uk-flex-column uk-flex-center"  uk-scrollspy="target:.uk-info; cls: uk-animation-slide-top-medium; delay: 100; repeat: false;">
                 <div class="uk-info uk-flex uk-flex-column uk-flex-middle">
                     <ul class="uk-grid-collapse" uk-grid>
                         <li class="uk-width-1-1">
@@ -334,5 +342,6 @@
         </ul>
     </div>
 </section>
-<!-- slider -->
+<!-- About-2 Section End-->
+
 <?php include('assets/include/footer.php') ?>

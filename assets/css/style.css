@@ -44,7 +44,13 @@ h5 {
 .uk-relative {
     position: relative !important;
 }
-
+.uk-section-padding-large{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.uk-section-padding-small {
+    padding: 30px 0;
+  }
 .uk-navbar{
     height: 5rem;
     display: flex;
@@ -169,14 +175,27 @@ h5 {
     color: var(--secondary);
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 13px;
-    line-height: 0.5;
+    font-size: 13px !important;
 }
 
 .section-title h2 {
     font-weight: 600;
 }
-
+.section-title a {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: .3s;
+    color: #333333;
+}
+.section-title a:hover{
+    color: var(--primary);
+}
+.section-title p{
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1rem;
+}
 .section-title {
     text-align: center;
 }
@@ -193,13 +212,26 @@ h5 {
     height: 570px;
     overflow: hidden;
 }
-
+.media{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .media-300 {
     width: 100%;
     height: 300px;
     overflow: hidden;
 }
-
+.media-500{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.media-450{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
 .media-200 {
     width: 100%;
     height: 200px;
@@ -227,7 +259,9 @@ h5 {
 .media-600 img,
 .media-300 img,
 .media-200 img,
-.media-260 img {
+.media-260 img,
+.media-500 img,
+.media-450 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -344,7 +378,29 @@ ul.bullet li:before {
     width: 15px;
     top: 5px;
 }
-
+ul.uk-links li{
+    position: relative;
+    padding-left: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+ul.uk-links li a{
+   font-size: 1rem;
+   color: var(--primary);
+   transition: .3s;
+}
+ul.uk-links li a:hover{ 
+    color:var(--secondary);
+}
+ul.uk-links li:before{
+    content: "";
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" viewBox="0 0 48 48"%3E%3Cpath fill="none" stroke="%23f0506e" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m19 12l12 12l-12 12"%2F%3E%3C%2Fsvg%3E');
+    position: absolute;
+    left: 0;
+    font-size: 8px;
+    height: 15px;
+    width: 15px;
+    top: 5px;
+}
 .uk-services {
     position: relative;
 }
@@ -425,8 +481,8 @@ ul.bullet li:before {
 
 /*contact-us page*/
 .uk-inner-header {
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     overflow: hidden;
     background-size: cover !important;
     background-position: center !important;
@@ -465,13 +521,49 @@ ul.bullet li:before {
 }
 .uk-section-bg{
     background-image: linear-gradient(0deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 100%), url('../img/pattern.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.uk-about .uk-service--item a{
+.uk-
+
+
+.uk-service--item a{
     color: var(--secondary);
     text-decoration: underline;
     margin-top: 20px;
     transition: .3s;
 }
+.uk-staff a{
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+.uk-staff p{
+    font-size: 0.95rem;
+}
+.uk-staff .uk-icon-button{
+    background: #ededed;
+}
+
+.uk-para1 p{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.uk-para2 p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.uk-section-padding-page{
+    padding: 100px 70px 60px;
+}
+/* .uk-pagination li.uk-active a{
+    color: var(--primary) ;
+} */
 @media only screen and (max-width: 700px) {
     html {
         font-size:14px;
@@ -488,5 +580,28 @@ ul.bullet li:before {
     }
     .uk-padding-large{
         padding: 20px;
+    }
+    .uk-section-padding-page{
+        padding:50px 0px 50px ;
+    }
+    .uk-program-list {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:950px){
+    .uk-section-padding-page{
+        padding:50px 0px 50px ;
+    }
+    
+    .order-reverse{
+        flex-direction: column-reverse !important;
+    }
+}
+@media only screen and (min-width:950px) {
+    .pl{
+        padding-left: 0!important;
+    }
+    .pr{
+        padding-right: 0!important;
     }
 }

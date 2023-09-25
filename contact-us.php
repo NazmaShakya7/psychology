@@ -1,7 +1,7 @@
 <?php include('assets/include/header.php'); ?>
 <!-- inner-header -->
 <div class="uk-inner-header uk-padding uk-background-cover uk-light" style="background: url('assets/img/brain.jpg');">
-    <div class="uk-container uk-inner-content ">
+    <div class="uk-container uk-inner-content " uk-scrollspy="target:h1,ul; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
         <h1 class="uk-margin-remove">Contact Us</h1>
         <ul class="uk-breadcrumb uk-light uk-margin-small">
             <li><a href="#">Home</a></li>
@@ -14,10 +14,10 @@
 
 <!-- page -->
 <section class="uk-section uk-section-bg">
-    <div class="uk-container uk-margin-top">
-        <div class=" uk-grid-large uk-flex uk-flex-middle" uk-height-match="target:uk-contact-item" uk-grid>
+    <div class="uk-container uk-margin-top" >
+        <div class=" uk-grid-large uk-flex uk-flex-middle" uk-height-match="target:uk-contact-item" uk-grid >
 
-            <div class="uk-width-1-3@m uk-contact-item ">
+            <div class="uk-width-1-3@m uk-contact-item " uk-scrollspy="target:h2, p, div, a; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
                 <div class="uk-section-title">
                     <h2>Get In Touch</h2>
                 </div>
@@ -64,9 +64,7 @@
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.905009530548!2d151.24542261521088!3d-33.89210018064974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12adf0e4f93701%3A0x47b2e3a1fda61d5f!2sLevel+2%2F133-135+Oxford+St%2C+Bondi+Junction+NSW+2022%2C+Australia!5e0!3m2!1sen!2snp!4v1565252315816!5m2!1sen!2snp" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe> -->
             </div>
 
-
-
-            <div class="uk-width-expand uk-contact-item">
+            <div class="uk-width-expand uk-contact-item" uk-scrollspy="target:h2, div, a; cls: uk-animation-slide-top-medium;   delay: 100; repeat: false;">
                 <div class="uk-card uk-card-default uk-card-body " >
                     <div class="uk-section-title">
                         <h2>Message Us</h2>
